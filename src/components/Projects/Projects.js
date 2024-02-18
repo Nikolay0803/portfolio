@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={netflixtube}
               isBlog={false}
-              title="Tetflixtube"
+              title="Netflixtube"
               description="“Netflixtube” is a web application created based on the design of the Netflix service. This application allows for the viewing of a large number of movies. Here are some features: the application implements a verification system that allows users to create their own accounts for storing personal settings and movie lists, verification using Google and Github: Users can use their Google or Github accounts to log into the application, providing an additional level of convenience and security, adding movies to favorites: Users can add movies to their favorites, allowing them to easily return to them later.
               TS, React, Next.js, Mongodb"
               ghLink="https://github.com/Nikolay0803/netflixtube"
