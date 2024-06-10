@@ -142,7 +142,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 0.5 1rem !important;
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
@@ -155,7 +155,6 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
   width: 2.5em !important;
 }
 
@@ -740,4 +739,8 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.avatar-img {
+  border-radius: 50%;
 }

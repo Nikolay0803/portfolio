@@ -31,12 +31,11 @@ function Home2() {
               allows me to learn new information quickly. Beyond coding, I am
               constantly improving myself by learning new technologies and
               improving my skillset.
-              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid avatar-img" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
