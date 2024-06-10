@@ -23,7 +23,7 @@ function Home2() {
               utilizing{" "}
               <b className="purple">
                 {" "}
-                React, React-Native, JavaScript, Node.JS.{" "}
+                JavaScript, TypeScript,React, React-Native, Next.JS Node.JS.{" "}
               </b>
               <br />
               <br />
