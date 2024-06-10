@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import modern_bakery from "../../Assets/Projects/modern_bakery.png";
+import Peach from "../../Assets/Projects/Peach.png";
 import beautyzone from "../../Assets/Projects/beautyzone.jpg";
 import todoapp from "../../Assets/Projects/todoapp.jpg";
 import netflixtube from "../../Assets/Projects/netflixtube.png";
-import WDB from "../../Assets/Projects/WDB.png";
+import Sviy from "../../Assets/Projects/Sviy.png";
 import deadruss from "../../Assets/Projects/deadruss.png";
 
 function Projects() {
@@ -21,6 +21,31 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Peach}
+              isBlog={false}
+              title="Marketplace Peach"
+              description="Peach is an online platform designed to facilitate the buying and selling of goods among users. It provides a secure environment for sellers and buyers, allowing them to easily interact and conduct transactions.
+              Platform Objective:
+              The goal of Peach is to create a convenient and reliable platform where users can exchange goods, explore new offers, and make purchases with maximum confidence. Peach aims to make the buying and selling process as convenient and reliable as possible, supporting active and safe communication between users."
+              ghLink="https://github.com/kamilka13me/marketplace_teamchallenge"
+              demoLink="https://marketplace-teamchallenge.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Sviy}
+              isBlog={false}
+              title="Marketplace-Sviy"
+              description="
+              Marketplace-Sviy is an online platform designed to support Ukrainian manufacturers who want to introduce and sell their products through the Internet. In this market, manufacturers can post information about their products, including photographs, descriptions and prices. In addition, the platform provides safe and convenient payment and delivery methods so that buyers can make purchases with confidence and comfort. The goal of Marketplace-Sviy is to support and develop domestic production, contributing to its growth and successful development in the Ukrainian online trading market"
+              ghLink="https://github.com/tarik2454/web-app-Marketplace-Sviy"
+              demoLink="https://web-app-marketplace-sviy.vercel.app"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={netflixtube}
@@ -58,34 +83,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={modern_bakery}
-              isBlog={false}
-              title="Modern bakery"
-              description="Discover the world of delicious bakery with our new website ‘Modern Bakery’! Our site is created using the latest technologies HTML, SCSS, and JS, providing you with the best user experience. Discover our traditions, advantages, and unique offers right now!"
-              ghLink="https://github.com/Nikolay0803/genius__test"
-              demoLink="https://nikolay0803.github.io/genius__test/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={beautyzone}
               isBlog={false}
               title="Beauty zone"
               description="Discover the world of beauty with our new website ‘Beauty Zone’! Our site is created using the latest technologies HTML, SCSS, and JS, providing you with the best user experience. Discover our services, advantages, and unique offers right now"
               ghLink="https://github.com/Nikolay0803/Beauty-zone"
               demoLink="https://nikolay0803.github.io/Beauty-zone"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={WDB}
-              isBlog={false}
-              title="WDB"
-              description="The “WDB” website appears to be an excellent resource that uses animation to create a dynamic and attractive user experience."
-              ghLink="https://github.com/Nikolay0803/WDB"
-              demoLink="https://nikolay0803.github.io/WDB/"
             />
           </Col>
         </Row>
