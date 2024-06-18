@@ -2,10 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/My_photo.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { FaEnvelope, FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import "../../App.css";
 
 function Home2() {
@@ -18,9 +16,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm an ambitious and goal-oriented Junior Full-Stack Developer. My
-              project experience includes both team and individual projects
-              utilizing{" "}
+              I'm an ambitious and goal-oriented Front-End | Full-Stack
+              Developer. My project experience includes both team and individual
+              projects utilizing{" "}
               <b className="purple">
                 {" "}
                 JavaScript, TypeScript, React, React-Native, Next.JS, Node.JS.{" "}
@@ -48,10 +46,30 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
+                  href="https://t.me/Nikolay_Maskakay"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaTelegram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:nikolaymaslakay@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaEnvelope />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://github.com/Nikolay0803"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -61,7 +79,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/mykola-maslakai-28318027a/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
