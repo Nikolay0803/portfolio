@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Peach from "../../Assets/Projects/Peach.png";
-import beautyzone from "../../Assets/Projects/Beaty-shots_so.png";
 import learn_lingo from "../../Assets/Projects/home-lin.png";
 import todoapp from "../../Assets/Projects/todoapp.png";
 import netflixtube from "../../Assets/Projects/netflixtube.png";
