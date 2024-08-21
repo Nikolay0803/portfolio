@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Peach from "../../Assets/Projects/Peach.png";
 import beautyzone from "../../Assets/Projects/Beaty-shots_so.png";
+import learn_lingo from "../../Assets/Projects/home-lin.png";
 import todoapp from "../../Assets/Projects/todoapp.png";
 import netflixtube from "../../Assets/Projects/netflixtube.png";
 import Sviy from "../../Assets/Projects/Sviy.png";
@@ -48,6 +49,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={learn_lingo}
+              isBlog={false}
+              title="Learn Lingo"
+              description="Learn Lingo is an interactive language learning app with features like user registration, authentication, and content access, built using a Nest.js backend and Next.js frontend for a seamless user experience. The technology stack includes Nest.js for a modular backend, JWT for secure authentication, Prisma ORM for database management, and Swagger for API documentation. On the frontend, Next.js ensures optimal performance with SSR and SSG, Next-auth manages user sessions, React builds the UI, and Tailwind CSS provides responsive designs. Key features include secure user registration, authentication, a public home page, a restricted teachers page, and auto-generated API documentation with Swagger."
+              ghLink="https://github.com/Nikolay0803/auth-next"
+              demoLink="https://auth-next-xi.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={netflixtube}
               isBlog={false}
               title="Netflixtube"
@@ -78,17 +90,6 @@ function Projects() {
               description="“TodoApp” is an application created using React. This application is an ideal tool for organizing your time and tasks. With it, you can: add goals: You can set specific goals that you want to achieve, add descriptions to them: Each goal can have a detailed description, helping you better understand what exactly you want to achieve, edit them: You can make changes to your goals and descriptions at any time, mark completion: When you achieve your goals, you can mark them as completed."
               ghLink="https://github.com/Nikolay0803/my-app2"
               demoLink="https://my-todo-three-rho.vercel.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={beautyzone}
-              isBlog={false}
-              title="Beauty zone"
-              description="Discover the world of beauty with our new website ‘Beauty Zone’! Our site is created using the latest technologies HTML, SCSS, and JS, providing you with the best user experience. Discover our services, advantages, and unique offers right now"
-              ghLink="https://github.com/Nikolay0803/Beauty-zone"
-              demoLink="https://nikolay0803.github.io/Beauty-zone"
             />
           </Col>
         </Row>
