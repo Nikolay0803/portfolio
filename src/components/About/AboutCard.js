@@ -8,22 +8,36 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mykola Maslakai </span>
-            from <span className="purple"> Kherson, Ukraine.</span>
+            Hello everyone! I’m <span className="purple">Mykola Maslakai</span>{" "}
+            from <span className="purple">Kherson, Ukraine</span>.
             <br />
-            My passion developing websites and apps.
+            I’m passionate about developing innovative websites and
+            applications, and I thrive on solving complex problems through code.
             <br />
-            Apart from coding, some other activities that I love to do!
+            When I'm not coding, I enjoy exploring new technologies,
+            experimenting with creative design, and staying active in my
+            community. I’m also an avid learner who loves diving into new
+            challenges and collaborating with others to bring ideas to life!
           </p>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Gym
+              <ImPointRight /> Traveling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Playing Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Watching Movies
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Reading Books
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Exploring New Technologies
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Hiking and Outdoor Activities
             </li>
           </ul>
 

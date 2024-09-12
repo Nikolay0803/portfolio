@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/My_photo.jpg";
+import myImg from "../../Assets/My_photo1.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaEnvelope, FaLinkedinIn, FaTelegram } from "react-icons/fa";
@@ -16,12 +16,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm an ambitious and goal-oriented Front-End | Full-Stack
-              Developer. My project experience includes both team and individual
-              projects utilizing{" "}
+              As a Front-end and Full-Stack Developer with over a year of
+              experience, I have worked on both team and individual projects
+              utilizing a range of technologies and methodologies. My project
+              experience includes:{" "}
               <b className="purple">
                 {" "}
-                JavaScript, TypeScript, React, React-Native, Next.JS, Node.JS.{" "}
+                JAVASCRIPT, TYPESCRIPT, REACT, NEXTJS, NODE, NESTJS,
+                REACT-NATIVE, REDUX, VITE, WEBPACK, REST API, EXPRESS, GIT,
+                DOCKER, MONGODB, POSTGRESQL, HTML, CSS, SCSS, TAILWIND, ADAPTIVE
+                DESIGN, MATERIAL UI.{" "}
               </b>
               <br />
               <br />
